@@ -1,3 +1,3 @@
-text = "Python is awesome"
-words = text.split( )
-print("Words:", words)
+arn = "arn:aws:iam::123456789012:user/johndoe"
+words = arn.split('/')
+print(words[1])
