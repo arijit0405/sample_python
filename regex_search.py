@@ -1,7 +1,7 @@
 import re
 
 text = "The quick brown fox"
-pattern = r"Arijit"
+pattern = r"Arijt"
 
 search = re.search(pattern, text)
 if search:
